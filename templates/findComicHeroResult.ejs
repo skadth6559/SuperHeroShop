@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result of Marvel Hero</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css" >
+
+</head>
+<body>
+    <div id="main-div">
+        <h1> Welcome To <i>The Super Hero Shop</i></h1>
+        <h2> Your place for finding and creating superheroes. </h2>
+        <a href="/">Go HOME</a>
+    </div>
+    <h3>Hero Details: <%- heroName %></h3>
+    <table>
+        <tr>
+            <th>Intelligence</th>
+            <th> Strength</th>
+            <th> Speed</th>
+        </tr>
+        <tr>
+            <td><%- heroIntelligence %></td>
+            <td><%- heroStrength %></td>
+            <td><%- heroSpeed %></td>
+        </tr>
+    </table><br>
+    <div id="image-div">
+        <img src="<%- heroImage %>" alt="<%- heroName %>" height="400">
+    </div>
+</body>
+</html>

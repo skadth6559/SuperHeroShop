@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Own Hero</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css" >
+</head>
+<body>
+    <div id="main-div">
+        <h1> Welcome To <i>The Super Hero Shop</i></h1>
+        <h2> Your place for finding and creating superheroes. </h2>
+        <a href="/">Go HOME</a>
+    </div><br>
+    <div id="form-div">
+        <form action="/createOwnHeroResult" method="post">
+            Name: <input type="text" name="name" placeholder="Enter a cool name!"><br><br>
+            Strength: <input type="number" name="strength" min="1" placeholder="Has to be at least 1"> <br><br>
+            Intelligence: <input type="number" name="intelligence" placeholder="Enter any number"> <br><br>
+            <input id="reset-btn" type="reset">
+            <input id="submit-btn" type="submit" value="Create Your Hero!">
+        </form>
+    </div>
+    
+</body>
+</html>

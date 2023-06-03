@@ -1,0 +1,79 @@
+body {
+    background-color: rgb(223, 222, 222);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h3 {
+    color:rgb(172, 30, 30);
+    text-align: center;
+}
+#main-div {
+    text-align: center;
+    color: rgb(222, 51, 51);
+    line-height: 1rem;
+}
+
+h2 {
+    color: black;
+}
+
+
+#select-option {
+    background-color:rgb(250, 250, 250);
+    margin: 0 auto;
+    width: 60%;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 5px 8px rgb(145, 24, 24);
+    border: 2px solid rgb(194, 194, 194);
+
+}
+
+#find-hero-form, #form-div {
+    background-color:rgb(250, 250, 250);
+    margin: 0 auto;
+    width: 60%;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 5px 8px rgb(145, 24, 24);
+    border: 2px solid rgb(194, 194, 194);
+
+}
+
+#reset-btn, #submit-btn, #find-hero-btn, #create-hero-btn, #get-hero-btn  {
+    margin-right: 0.2rem;
+    background-color: rgb(205, 57, 57);
+    border: 2px solid white;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+#reset-btn:hover, #submit-btn:hover, #get-hero-btn:hover,
+#create-hero-btn:hover, #find-hero-btn:hover {
+    background-color: rgb(172, 30, 30);
+}
+
+table,td,th {
+    margin: 0 auto;
+    border: 2px solid rgb(166, 51, 51);
+}
+table {
+    background-color: rgb(241, 241, 241);
+}
+td,th {
+    padding: 0.2rem;
+}
+#image-div {
+    text-align: center;
+}
+
+img {
+    border: 3px solid rgb(159, 49, 49);
+    border-radius: 5px;
+}
+p {
+    text-align: center;
+}
